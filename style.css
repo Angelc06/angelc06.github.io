@@ -20,7 +20,7 @@ header {
 }
 body {
   background: #80a1f2;
-  overflow: hidden;
+  overflow: visible;
 }
 .logo {
   font-size: 30px;
@@ -273,4 +273,34 @@ section {
     width: 100%;
     height: auto;
   }
+}
+footer {
+  background-color: #111;
+}
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.footerlogo {
+  display: flex;
+  justify-content: center;
+}
+.footerlogo img {
+  text-decoration: none;
+  padding: 20px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 50%;
+}
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p {
+  color: #fff;
+}
+.iframe {
+  display: flex;
+  text-align: right;
 }
